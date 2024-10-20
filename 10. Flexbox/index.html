@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Flex</title>
+</head>
+
+<body>
+  <!-- Flex -->
+  <!-- https://tailwindcss.com/docs/flex -->
+  <h1 class="text-center underline decoration-double">1. Flex </h1>
+
+  <div class="border m-10 p-5 underline ">
+    <ul class="flex">
+      <li class="p-5 m-5 bg-teal-100">01</li>
+      <li class="p-5 m-5 bg-teal-100">02</li>
+      <li class="p-5 m-5 bg-teal-100">03</li>
+      <li class="p-5 m-5 bg-teal-100">04</li>
+      <li class="p-5 m-5 bg-teal-100">05</li>
+    </ul>
+  </div>
+  <!-- Flex Direction -->
+  <!-- https://tailwindcss.com/docs/flex-direction#column -->
+  <h1 class="text-center underline decoration-double">2. Flex Direction</h1>
+  <div class="border m-10 p-5">
+    <ul class="flex flex-col">
+      <li class="p-5 m-5 bg-teal-100">01</li>
+      <li class="p-5 m-5 bg-teal-100">02</li>
+      <li class="p-5 m-5 bg-teal-100">03</li>
+      <li class="p-5 m-5 bg-teal-100">04</li>
+      <li class="p-5 m-5 bg-teal-100">05</li>
+    </ul>
+  </div>
+  <!-- Justify Content -->
+  <!-- https://tailwindcss.com/docs/justify-items -->
+  <h1 class="text-center underline decoration-double">2. Justify Content</h1>
+  <div class="border m-10 p-5">
+    <ul class="flex justify-end">
+      <li class="p-5 m-5 bg-teal-100">01</li>
+      <li class="p-5 m-5 bg-teal-100">02</li>
+      <li class="p-5 m-5 bg-teal-100">03</li>
+      <li class="p-5 m-5 bg-teal-100">04</li>
+      <li class="p-5 m-5 bg-teal-100">05</li>
+    </ul>
+  </div>
+  <!-- Order -->
+  <!-- https://tailwindcss.com/docs/order -->
+  <h1 class="text-center underline decoration-double">3. Order</h1>
+  <div class="border m-10 p-5">
+    <ul class="flex ">
+      <li class="p-5 m-5 bg-teal-100 order-5">01</li>
+      <li class="p-5 m-5 bg-teal-100 order-4">02</li>
+      <li class="p-5 m-5 bg-teal-100 order-3">03</li>
+      <li class="p-5 m-5 bg-teal-100 order-2">04</li>
+      <li class="p-5 m-5 bg-teal-100 order-1">05</li>
+    </ul>
+  </div>
+  <!-- Grow and shrink -->
+  <!-- https://tailwindcss.com/docs/flex-shrink -->
+  <h1 class="text-center underline decoration-double">4. Grow and shrink</h1>
+  <div class="border m-10 p-5">
+    <ul class="flex w-100">
+      <li class="p-5 w-64 m-3 bg-teal-100 flex-none">01</li>
+      <li class="p-5 w-64 m-3 bg-teal-100 flex-initial">02</li>
+      <li class="p-5 w-64 m-3 bg-teal-100 flex-auto">03</li>
+      <li class="p-5 w-64 m-3 bg-teal-100 flex-1">04</li>
+      <li class="p-5 w-64 m-3 bg-teal-100 flex-2">05</li>
+      <li class="p-5 w-64 m-3 bg-teal-100 flex-3">06</li>
+      <li class="p-5 w-64 m-3 bg-teal-100 flex-4">07</li>
+    </ul>
+  </div>
+</body>
+
+</html>

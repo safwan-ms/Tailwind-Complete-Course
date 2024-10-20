@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Transform & Transition</title>
+</head>
+
+<body class="p-10">
+    <!-- No Transition -->
+    <button class="p-3 font-bold bg-blue-500 hover:bg-blue-800 text-white rounded-3xl text-xl">Click Me</button>
+    <!-- Transition -->
+    <!-- 1. https://tailwindcss.com/docs/transition-property -->
+    <button
+        class="p-3 m-10 bg-blue=500 bg-blue-300 hover:bg-green-500 text-white rounded-3xl text-xl transition duration-700 ease-in-out delay-150">With
+        Transition</button>
+    <!-- 2. https://tailwindcss.com/docs/transition-duration -->
+    <!-- 3. https://tailwindcss.com/docs/transition-timing-function -->
+    <!-- 4. https://tailwindcss.com/docs/transition-delay -->
+    <!-- 5. https://tailwindcss.com/docs/animation -->
+
+    <!-- Transition & Transform -->
+    <button
+        class="p-3 m-10 bg-blue=500 bg-blue-300 hover:bg-green-500 text-white rounded-3xl text-xl transition duration-700 ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">With
+        Transition</button>
+    <!-- Animation -->
+    <div class="flex justify-center">
+        <div class="p-20 ml-20 mt-20 w-20 bg-teal-500 animate-spin ">spin</div>
+        <div class="p-20 ml-20 mt-20 w-20 bg-teal-500 animate-ping ">ping</div>
+        <div class="p-20 ml-20 mt-20 w-20 bg-teal-500 animate-pulse ">pulse</div>
+        <div class="p-20 ml-20 mt-20 w-20 bg-teal-500 animate-bounce ">bounce</div>
+    </div>
+</body>
+
+</html>
